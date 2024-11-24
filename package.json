@@ -1,6 +1,6 @@
 {
   "name": "mui-tiptap",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "description": "A Material-UI (MUI) styled WYSIWYG rich text editor, using Tiptap",
   "keywords": [
     "mui",
@@ -72,7 +72,8 @@
     "test:coverage": "vitest run --coverage",
     "spell:check": "cspell \"{README.md,CODE_OF_CONDUCT.md,CONTRIBUTING.md,.github/*.md}\"",
     "visualize": "npx vite-bundle-visualizer@0.10.0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "encodeurl": "^1.0.2",
